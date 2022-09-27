@@ -104,7 +104,6 @@ header {
   align-items: center;
   margin-bottom: 1rem;
   margin-right: 1rem;
-  /* border: 1px solid red; */
 }
 
 .track_title {
@@ -132,6 +131,10 @@ header {
 }
 
 @media screen and (min-width: 576px) {
+  header {
+    height: 50vh;
+    width: 100vw;
+  }
   iframe {
     width: 400px;
     height: 300px;
@@ -145,6 +148,10 @@ header {
 }
 
 @media screen and (min-width: 768px) {
+  header {
+    height: 50vh;
+    width: 100vw;
+  }
   .container {
     flex-direction: row;
     align-items: center;
