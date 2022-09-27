@@ -70,7 +70,7 @@ iframe {
 .track_title {
   color: var(--white);
   background-color: var(--backgroundColor);
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 1rem 0;
   padding: 0 1rem;
   border-radius: 10px;
@@ -83,10 +83,22 @@ iframe {
   word-spacing: 7px;
 }
 
+.track_link a {
+  font-style: italic;
+}
+
 @media screen and (min-width: 576px) {
   iframe {
     width: 400px;
     height: 300px;
+  }
+  .track_title {
+    color: var(--white);
+    background-color: var(--backgroundColor);
+    font-size: 3rem;
+    margin: 1rem 0;
+    padding: 0 1rem;
+    border-radius: 10px;
   }
 }
 
