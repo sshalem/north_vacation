@@ -11,9 +11,11 @@
   --light: #fff;
   --dark: #181b24;
   --grey: #899495;
+  --yellow: yellow;
   --orange: #fc5130;
   --sectionGrey: #f2f2f2;
-  --sectionWhite: #fff;
+  --white: #fff;
+  --backgroundColor: rgb(104, 174, 240);
 }
 
 /* in body we define the font-family for whole page (and not in universal selector) */
@@ -22,9 +24,10 @@
 } */
 
 h1,
+h2,
 h3 {
   letter-spacing: 5px;
-  line-height: 2em;
+  /* line-height: 2em; */
   word-spacing: 10px;
 }
 .container {
@@ -34,6 +37,24 @@ h3 {
   align-items: center;
   /* justify-content: center; */
 }
+
+.seperator {
+  height: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 20px;
+  background-color: var(--backgroundColor);
+  width: 15rem;
+}
+
+a {
+  text-decoration: none;
+  color: blue;
+}
+
+/*********************
+    track
+**********************/
 .track {
   display: flex;
   flex-direction: column;
@@ -41,16 +62,20 @@ h3 {
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
-.title {
-  color: #fc5130;
-  font-size: 4rem;
+.track_title {
+  color: var(--white);
+  background-color: var(--backgroundColor);
+  font-size: 3rem;
+  margin: 1rem 0;
+  padding: 0 1rem;
+  border-radius: 10px;
 }
-.seperator {
-  height: 0.5rem;
-  margin-bottom: 1rem;
-  border-radius: 20px;
-  background-color: rgb(43, 148, 144);
-  width: 29rem;
+
+.track_link {
+  margin: 1rem 0;
+  font-size: 1.3rem;
+  letter-spacing: 3px;
+  word-spacing: 7px;
 }
 
 @media screen and (min-width: 576px) {
