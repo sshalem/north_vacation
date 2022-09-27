@@ -67,10 +67,11 @@ iframe {
   margin-bottom: 1rem;
   margin-right: 1rem;
 }
+
 .track_title {
   color: var(--white);
   background-color: var(--backgroundColor);
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   margin: 1rem 0;
   padding: 0 1rem;
   border-radius: 10px;
