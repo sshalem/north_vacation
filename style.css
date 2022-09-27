@@ -82,14 +82,14 @@ header {
 }
 
 .banner-title {
-  font-size: 3.5rem;
+  font-size: 2.5rem;
   color: var(--white);
   margin-top: 2.5rem;
   line-height: 1.3;
 }
 
 .banner-btn {
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: var(--light);
   margin-top: 2.5rem;
   line-height: 1.3;
@@ -149,6 +149,18 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+  }
+  .banner-title {
+    font-size: 3rem;
+    color: var(--white);
+    margin-top: 2.5rem;
+    line-height: 1.3;
+  }
+  .banner-btn {
+    font-size: 2rem;
+    color: var(--light);
+    margin-top: 2.5rem;
+    line-height: 1.3;
   }
 }
 
