@@ -11,7 +11,7 @@
   --light: #fff;
   --dark: #181b24;
   --grey: #899495;
-  --yellow: yellow;
+  --yellow: rgb(213, 195, 31);
   --orange: #fc5130;
   --sectionGrey: #f2f2f2;
   --white: #fff;
@@ -40,8 +40,8 @@ h3 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   border-radius: 20px;
-  background-color: var(--backgroundColor);
-  width: 15rem;
+  background-color: var(--yellow);
+  width: 25rem;
 }
 
 a {
