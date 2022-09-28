@@ -15,7 +15,7 @@
   --orange: #fc5130;
   --sectionGrey: #f2f2f2;
   --white: #fff;
-  --backgroundColor: rgb(104, 174, 240);
+  --backgroundColor: rgb(45, 142, 233);
 }
 
 /* in body we define the font-family for whole page (and not in universal selector) */
@@ -123,18 +123,31 @@ header {
   margin-right: 1rem;
 }
 
+.track_date {
+  font-size: 0.85rem;
+  color: var(--backgroundColor);
+}
+
 .track_title {
   color: var(--white);
   background-color: var(--backgroundColor);
   font-size: 0.85rem;
   margin: 1rem 0;
-  padding: 0 1rem;
   border-radius: 10px;
 }
 
 .track_title a {
+  padding: 0 1rem;
+  border-radius: 10px;
   color: var(--white);
   background-color: var(--backgroundColor);
+}
+
+.track_title a:hover {
+  display: inline-block;
+  background-color: var(--white);
+  color: var(--backgroundColor);
+  border: 1px solid var(--backgroundColor);
 }
 
 .track_link_container {
@@ -162,6 +175,9 @@ header {
   }
   .track_link {
     font-size: 1.2rem;
+  }
+  .track_date {
+    font-size: 2.1rem;
   }
 }
 
