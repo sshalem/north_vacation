@@ -189,9 +189,6 @@ header {
   .track_date {
     font-size: 2.1rem;
   }
-  ul li {
-    font-size: 1.65rem;
-  }
 }
 
 @media screen and (min-width: 657px) {
@@ -223,6 +220,9 @@ header {
   }
   .track_date {
     font-size: 2.5rem;
+  }
+  ul li {
+    font-size: 1.65rem;
   }
 }
 
