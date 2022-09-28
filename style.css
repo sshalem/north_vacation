@@ -45,26 +45,22 @@ h3 {
 }
 
 a {
+  display: block;
   text-decoration: none;
   color: blue;
   font-style: italic;
 }
 
-ul li {
+ul {
+  width: 200px;
+}
+
+li {
   margin: 1rem 0;
   font-size: 0.75rem;
   letter-spacing: 0.1rem;
   word-spacing: 0.1rem;
-  /* text-decoration: none; */
-  /* text-transform: capitalize; */
-  /* letter-spacing: 1px; */
-  /* background: #222;
-  color: #f15025; */
-  /* display: block; */
-  /* padding: 5px; */
-  /* margin: 10px 10px; */
 }
-
 /*********************
     header
 **********************/
@@ -131,6 +127,7 @@ header {
   align-items: center;
   margin-bottom: 1rem;
   margin-right: 1rem;
+  /* border: 1px solid red; */
 }
 
 .track_date {
@@ -189,6 +186,9 @@ header {
   .track_date {
     font-size: 2.1rem;
   }
+  ul {
+    width: 300px;
+  }
 }
 
 @media screen and (min-width: 657px) {
@@ -226,6 +226,9 @@ header {
   }
   ul li {
     font-size: 1.65rem;
+  }
+  ul {
+    width: 400px;
   }
 }
 
