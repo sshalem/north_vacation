@@ -196,6 +196,9 @@ header {
     height: 100vh;
     width: 100vw;
   }
+  ul li {
+    font-size: 1.2rem;
+  }
 }
 
 @media screen and (min-width: 768px) {
