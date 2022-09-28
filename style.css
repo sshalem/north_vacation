@@ -79,7 +79,7 @@ header {
 .header__date {
   letter-spacing: 0.5rem;
   font-size: 0.75rem;
-  padding: 0.5rem 0.5rem 0 0;
+  /* padding: 0.5rem 0.9rem 0 0; */
   color: var(--white);
   line-height: 2.3;
   letter-spacing: 0.1rem;
